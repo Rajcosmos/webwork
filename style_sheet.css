@@ -1,0 +1,198 @@
+
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.box1 {
+    height: 600px;
+    padding: 10px;
+    color: rgb(236, 242, 245);
+    background: rgb(240, 241, 241);
+    margin-top: 30px;
+    border-width: 30px;
+    padding-left: 0px;
+    word-wrap: break-word;
+  
+  }
+
+.box2 {
+    height: 400px;
+    padding: 10px;
+    color: rgb(243, 234, 241);
+    background: rgb(240, 241, 241);
+    margin-left: 0px;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+
+  .box3 {
+    min-height:400px;
+    min-width:400px;
+    height: 900px;
+    width:800px;
+    padding: 20px;
+    color: rgb(236, 242, 245);
+    background: rgb(240, 241, 241);
+    margin-top: 30px;
+    border-width: 30px;
+    padding-left: 0px;
+    word-wrap: break-word;
+  }
+  
+  .imageContainer > img:hover {
+    width: 400px;
+    height: 400px;
+  }
+  
+
+  .margin-top-80 {
+    margin-top: 80px;
+  }
+  
+  
+  .margin-top-80 {
+    margin-top: 80px;
+  }
+  
+  h1 {color: rgb(141, 240, 12);
+     text-align: center;
+      }
+
+
+  
+    h2 { 
+          display: block;
+          color:rgb(141, 240, 12);
+          font-size: 1.5em;
+          margin-top: 0.83em;
+          margin-bottom: 0.83em;
+          margin-left: 10px;
+          margin-right: 0px;
+          font-weight: bold;
+      }
+    
+      h3 { 
+        display: block;
+        color:rgb(141, 240, 12);
+        font-size: 1em;
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
+        margin-left: 50px;
+        margin-right: 0;
+        font-weight: bold;
+    }
+
+    h5 { 
+      font-size:0.9em;
+      color:rgb(141, 240, 12)}
+  
+  p {
+    color:black;
+    
+  }
+
+.nav{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+img {
+    margin: auto;
+    vertical-align: middle;
+  } 
+
+  div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.box {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+.skyblue {
+  background: deepskyblue;
+}
+.purple {
+  background: rebeccapurple;
+}
+.red {
+  background: indianred;
+}
+
+table tbody, table thead
+{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+table tbody 
+{
+   overflow: auto;
+   height: 400px;
+   table-layout: fixed;
+   
+}
+
+table
+{
+    width: 350px;
+}
+
+th 
+{
+  height: 60px;  
+  width: 60px;
+}
+
+td 
+{
+  height: 60px;
+  width: 60px;
+}
+

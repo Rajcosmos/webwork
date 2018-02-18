@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en-us"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <! -- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <title> Bootstrap Data Visualization Dashboard </title>
+    <!-- Custom styles for this template -->
+ <link href="style_sheet.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top justify-content-between">
+                <ul class="nav nav-pills">
+                 <li class="nav-item">
+                     <a class="nav-link active" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/index.html">Latitude</a>
+                 </li>
+                </ul>
+             <ul class="nav justify-content-end">
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/maxtemp.html#">Max Temperature</a>
+                              <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/humidity.html">Humidity</a>
+                              <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/cloudiness.html">Cloudiness</a>
+                              <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/windspeed.html">Wind Speed</a>
+                            </div>
+                    <li class="nav-item">
+                      <a class="nav-link" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/data.html">Data</a>
+                    </li>
+                  </ul>  
+             </nav>
+
+  
+ <div class="container">
+     
+      <div class="box3">
+        <h2> Comparison:Latitude vs X </h2>  
+        <hr>
+        <h5> Hover on any image to enlarge..</h5>
+        <div class="row">
+            <div class="col-xs-3 col-sm-6 col-md-6">
+            <h3> Vs. Max Temperature</h3>
+            <div class="imageContainer">
+            <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/Maxtemp.jpg" alt="Latitude vs MaxTemp image" height="300" width="338">
+             </div>  
+             </div>
+               <div class="col-xs-3 col-sm-6 col-md-6">
+            <h3> Vs. Humidity</h3>
+            <div class="imageContainer">
+            <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatHumid.jpg" alt="Latitude vs Humidity" height="300" width="338">
+            </div>   
+            </div>
+        </div>
+          <div class="row">
+             <div class="col-xs-3 col-sm-6 col-md-6">
+                 <h3> Vs. Cloudiness </h3>
+                 <div class="imageContainer">
+            <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatCloud.jpg" alt="Latitude vs Cloudiness image"  height="300" width="338">
+                  </div>
+               </div>
+              <div class="col-xs-3 col-sm-6 col-md-6">
+                  <h3> Vs. Wind Speed</h3>
+                  <div class="imageContainer">
+            <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatWind.jpg" alt="Latitude vs Wind image" height="300" width="338">
+              </div>
+        </div>
+         </div>
+        </div>
+    <!--These col-md-3 columns go half wide when on a small screen-->
+
+  </div>
+</body>
+</html>

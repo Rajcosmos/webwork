@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en-us"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <! -- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <title> Cloudiness Data Visualization Dashboard </title>
+    <!-- Custom styles for this template -->
+ <link href="style_sheet.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top justify-content-between">
+     <ul class="nav nav-pills">
+      <li class="nav-item">
+          <a class="nav-link active" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/index.html">Latitude</a>
+      </li>
+     </ul>
+  <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/maxtemp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/windspeed.html">Wind Speed</a>
+                </div>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/Comparisions.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/data.html">Data</a>
+        </li>
+      </ul>  
+ </nav>
+
+ <!-- Page Content -->
+ <div class="container">
+         <div class="row">
+            <!--First Column in this Row-->
+            <div class="col-md-7">
+                    <div class="box1">
+                
+                     <div>
+                       <h1> Cloudiness (%) </h1>
+                
+                       <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatCloud.jpg" alt="Cloudiness Image" class="center" height="50%" width="60%">
+                       
+                     
+                       <p>
+                          Continents tend to be less cloudy than adjacent oceans (at the same latitude), except in equatorial belt. Cloudiness 
+                          is more towards +ve latitudes between 40 and 60 East.Clouds also tend to form in abundance in the middle latitudes 60 degrees 
+                          north and south of the equator. This is where the edges of polar and mid-latitude (or Ferrel) circulation cells collide and 
+                          push air upward, fueling the formation of the large-scale frontal systems that dominate weather patterns in the mid-latitudes. 
+                          While clouds tend to form where air rises as part of atmospheric circulation patterns, descending air inhibits cloud formation. 
+                          Since air descends between about 15 and 30 degrees north and south of the equator, clouds are rare and deserts are common at this 
+                          latitude.
+                          
+                       </p>
+                      
+                      
+                      </div>
+                                
+        
+                    
+                    </div>
+              
+            </div>
+      
+            <!--Second Column in this Row-->
+            <div class="col-md-5">
+                <div class="box2">
+                 <h1> Visualizations </h1>
+     
+                 
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/Maxtemp.jpg" alt="Latitude vs X image" class="img-thumbnail" height="150" width="40%">
+                       
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatCloud.jpg" alt="Latitude vs X image" class="border border-primary img-thumbnail" height="150" width="40%">
+                   
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatHumid.jpg" alt="Latitude vs X image" class="img-thumbnail" height="150" width="40%">
+
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatWind.jpg" alt="Latitude vs X image" class="img-thumbnail" height="150" width="40%">
+                    
+                    </div>
+                  
+                </div>
+             
+            </div>
+</div>
+         
+</body>
