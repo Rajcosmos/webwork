@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-us"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <! -- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <title> Bootstrap Data Visualization Dashboard </title>
+    <!-- Custom styles for this template -->
+ <link href="style_sheet.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top justify-content-between">
+    <ul class="nav nav-pills">
+     <li class="nav-item">
+         <a class="nav-link active" href="#">Latitude</a>
+     </li>
+    </ul>
+ <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plot</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/maxtemp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/windspeed.html">Wind Speed</a>
+                </div>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/Comparisions.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/data.html">Data</a>
+        </li>
+      </ul>  
+ </nav>
+
+ <!-- Page Content -->
+ <div class="container">
+         <div class="row">
+            <!--First Column in this Row-->
+            <div class="col-md-7">
+                    <div class="box1">
+                     
+                     <div>
+                       <h1> Summary:Latitude Vs. X </h1>
+                        <div> <p style="float: left;">
+                       <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/Maxtemp.jpg" alt="Latitude vs X image" height="200px" width="200px" border="1px">
+                        </p>
+                     
+                       <p>
+                          The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we
+                          first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                        </p>
+                          
+                        </div>
+                        <p>
+                          After assumbling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at included:
+                          temperature,cloudiness, wind speed, and humidity. This site provides the source data and 
+                          visualizations created as part of the analysis, as well as explanations and descriptions of any
+                          trends and correlations witnessed.
+                       </p>
+                      
+                      
+                      </div>
+                                
+        
+                    
+                    </div>
+              
+            </div>
+      
+            <!--Second Column in this Row-->
+            <div class="col-md-5">
+                <div class="box2">
+                 <h1> Visualizations </h1>
+     
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/Maxtemp.jpg" alt="Latitude vs Maxtemp image" class="img-thumbnail" height="200" width="40%">
+                 
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatCloud.jpg" alt="Latitude vs Cloudiness image" class="img-thumbnail" height="150" width="40%">
+                   
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatHumid.jpg" alt="Latitude vs X Humidity" class="img-thumbnail" height="150" width="40%">
+
+                      <img src="file:///C:/Users/rajat/Data_Analytics_BC/Homework/Web_HW/CityLatWind.jpg" alt="Latitude vs Wind image" class="img-thumbnail" height="150" width="40%">
+                    
+                    </div>
+                  
+                </div>
+             
+            </div>
+</div>
+         
+</body>
